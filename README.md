@@ -51,6 +51,42 @@ to make a backup of the essential system at a point in time, and restore it from
 should anything go wrong. Knowing the chaos that can be Arch, I wanted a way to revert
 any and all changes should I need to. So I made my first backup and went on my merry way.
 
+After many hours, rollbacks, and incremental timeshift backups I finally got to a base set
+of software and configurations that could support my desired workflows. From getting
+Windows 11 installed through a virtual machine (Thanks Adobe for not supporting Linux),
+to Docker, a clean terminal prompt, and a calming yet clean desktop; this was quite the
+adventure. Quick shout out to myself for doing all the setup and configuration using
+just the ***base version*** of Neovim. No plugins, no customization, just me, the home row
+and the `:Ex` function. Did I learn how to exit Neovim? Maybe, maybe not, that set
+of setup and customization steps has yet to be done for my favorite editor.
+
+The base set of software I installed on the system can be found in 
+[Installed Software](Installed%20Software.md). I put a couple of command lines that
+__should__ work, however I did not install everything with those commands. Those were
+compiled after I spent hours looking through various ArchWiki articles, GitHub README's,
+and Software Wiki's across the interwebs. 
+
+## Final Thoughts
+
+This was quite the journey, especially once I got into the flow of configuring everything.
+The reason I included virtually all configs as submodules was so that I could roll back
+any change I made at any time and keep track of everything separately. As well as the
+themes used for SDDM I did not create, so I linked the original creator's repository.
+Not only does this allow for easy restoration of previous states (along with Timeshift)
+but it also allows me to replicate my setup with ease, as incrementally as I may need.
+
+Arch Linux, especially with Hyprland is not for the inexperienced or the faint of heart.
+There is a lot of troubleshooting, dependency management, and investigative skills that
+go into play with this. However, coming out with a new favorite system, and a lot
+of knowledge regarding Git, Rebasing, and Submodules I did not previously have. This
+was very much a worthwhile experience. Stay tuned for my Neovim configs, and as an
+additional sidenote, each of the separate submodules will be set to public once I am done
+tweaking and have an appropriate README for each of them.
+
+Thanks for reading!
+
+Bailey
+
 
 
 
