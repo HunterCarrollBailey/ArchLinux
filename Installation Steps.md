@@ -1,5 +1,4 @@
-# RTFM
-A lot of the steps for this are found in the goddamn manual. Use your search skills and actually read how to set it up Bailey.
+# Installing Arch
 
 **Load the US Keymap** 
 
